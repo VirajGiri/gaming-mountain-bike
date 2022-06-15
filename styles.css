@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url("backgroud.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#ground{
+    width: 100%;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    bottom: 0;
+}
+#character{
+    width: 93px;
+    height: 79px;
+    background-image: url("character.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: 100px;
+    right: calc(100% - 500px);
+}
+.obstacle{
+ width: 200px;
+ height: 200px;
+ background-image: url("trees.png");
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: absolute;
+ bottom: 100px;
+ right: 0;   
+ z-index: -99;
+}
+.rock{
+    width: 90px;
+    height: 100px;
+    background-image: url("rock.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: 60px;
+    right: 0;   
+}
+h2{
+    position: absolute;
+    right: 50px;
+}
